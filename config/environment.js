@@ -31,7 +31,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/webhook-examples-login/';
+    ENV.locationType = 'hash';
   }
 
   return ENV;

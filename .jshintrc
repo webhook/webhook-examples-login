@@ -3,7 +3,9 @@
     "document": true,
     "window": true,
     "-Promise": true,
-    "WebhookExamplesLoginENV": true
+    "WebhookExamplesLoginENV": true,
+    "Firebase": true,
+    "FirebaseSimpleLogin": true
   },
   "browser" : true,
   "boss" : true,
