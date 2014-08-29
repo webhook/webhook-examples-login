@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WebhookExamplesLogin</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/webhook-examples-login.css">
+  </head>
+  <body>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/webhook-examples-login.js"></script>
+    <script>
+      window.WebhookExamplesLoginENV = require('webhook-examples-login/config/environment')['default'];
+      window.EmberENV = window.WebhookExamplesLoginENV.EmberENV;
+      window.WebhookExamplesLogin = require('webhook-examples-login/app')['default'].create(WebhookExamplesLoginENV.APP);
+    </script>
+  </body>
+</html>
